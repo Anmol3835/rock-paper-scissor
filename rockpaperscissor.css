@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.user-input{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.choice{
+height: 200px;
+width: 200px;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#rock{
+    border-radius: 50px;
+   background-color: red;
+    border-radius: 50%;
+    object-fit: fill;
+}
+#paper{
+    border-radius: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+#scissors{
+    border-radius: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+img{
+    height: 180px;
+    width: 160px;  
+    object-fit: cover;
+    cursor: pointer;
+border-radius: 50%;
+height: 200px;
+width: 200px;
+}
+img:hover{
+    height: 180px;
+    width: 160px;  
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid black;
+border-radius: 50%;
+height: 200px;
+width: 200px;
+}
+h1{
+    background-color: black;
+    color: antiquewhite;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.score{
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    font-size: 5rem;
+}
+p{
+    font-size: 2rem;
+}
+.result{
+    background-color: blue;
+    border-radius: 1rem;
+    margin-top: 30px;
+    color: aliceblue;
+}
+#result{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+}

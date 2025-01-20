@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="rockpaperscissor.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="user-input">
+        <div class="choice" id="rock" onclick="rock()">
+            <img src="rock.png">
+        </div>
+        <div class="choice" id="paper" onclick="paper()">
+            <img src="paper.png">
+        </div>
+        <div class="choice" id="scissors" onclick="scissors()">
+            <img src="scissors.png"> 
+        </div>
+    </div>
+    <div class="score">
+        <div class="user-score">
+            <h2 id="you"></h2>
+            <p>You</p>
+        </div>
+        <div class="com-score">
+            <h2 id="comp"></h2>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="result">
+        <p id="result">This is Result</p>
+    </div>
+    <script src="rockpaperscissor.js"></script>
+</body>
+</html>
